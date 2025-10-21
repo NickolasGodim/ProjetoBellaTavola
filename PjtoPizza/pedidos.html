@@ -1,0 +1,136 @@
+<html>
+<head>
+</head>
+<link rel="stylesheet" href="setup.css">
+<body>
+    <div id="cabecalhoP">
+        <div class="header"></div>
+        <div id="Nome">
+        <h1>Bella Tavola Pizzaria</h1>
+    </div>
+        <div class="imagemLogo">
+        <img src="Logo.png" alt="">
+    </div>
+    
+
+    <div class="botões">
+        <a href="home.html"><button class="btn btn-home">Home</button></a>
+        <a href="cardapio.html"><button class="btn btn-cardapio">Cardápio</button></a>
+        <a href="pedidos.html"><button class="btn btn-pedidos">Pedidos</button></a>
+    </div>
+        
+
+    <div id="corpoP">
+        <div class="inputs1">
+            <form name="=formulario" method="post" action="">
+                <h3>Informações Pessoais/Informações Da Entrega:</h3>
+                <table>
+                    <td>Nome: </td>
+                    <td><input type="text" name="nomeas" id="nomeas" size="20" >   </td>
+                    <tr></tr>
+                    <td>Endereço: </td>
+                    <td><input type="text" name="endereco" id="endereco" size="20" >   </td>
+                    <tr></tr>
+                    <td>Cidade: </td> 
+                    <td><input type="text" name="cidade" id="cidade" size="20" >    </td>
+                    <tr></tr>
+                    <td>CEP: </td> 
+                    <td><input type="text" name="cep" id="cep" size="20" >    </td>
+                    <tr></tr>
+                    <td>Telefone Residencial: </td> 
+                    <td><input type="number" name="telefone1" id="telefone1" size="20" >    </td>
+                    <tr></tr>
+                    <td>CPF: </td> 
+                    <td><input type="number" name="cpf" id="cpf" size="20" >    </td>
+                    <tr></tr>
+                    <td>Bairro: </td> 
+                    <td><input type="text" name="bairro" id="bairro" size="20" >    </td>
+                    <tr></tr>
+                    <td>Estado: </td> 
+                    <td> <select name="estado" id="estado"> 
+                    <option value="ND"></option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="BR">Brasília</option>
+                    <tr></tr>
+                    <td>Email: </td> 
+                    <td><input type="text" name="email" id="email" size="20" >    </td>
+                    <tr></tr>
+                    <td>Telefone Celular: </td> 
+                    <td><input type="number" name="telefonec" id="telefonec" size="20" >    </td>
+                    <tr></tr>
+                    <td>RG: </td> 
+                    <td><input type="number" name="rg" id="rg" size="20" >    </td>
+                    <tr></tr>
+                    <td>Data Entrega: </td> 
+                    <td><input type="date" name="data" id="data" >    </td>
+                    <td>Horário Entrega: </td> 
+                    <td><input type="time" name="hora" id="hora" >    </td>
+                    <tr></tr>
+                    <td>Tipo Pizza: </td> 
+                    <td> <select name="tipo" id="tipo"> 
+                    <option value="SAL">Salgada</option>
+                    <option value="DOCE">Doce</option>
+                    </select></td>
+                    <tr></tr>
+                    <td>Tamanho Pizza</td>
+                    <td> <select name="taman" id="taman"> 
+                        <option value="pe">Pequena</option>
+                        <option value="me">Média</option>
+                        <option value="gr">Grande</option>
+                        <option value="gi">Gigante</option>
+                        </select></td>
+                    <tr></tr>
+                    <td>Sabor Pizza </td> 
+                    <td><input type="checkbox" name="sab" id="sab">Quattro Stagioni </td>
+                    <td><input type="checkbox" name="sab" id="sab">Margherita </td>
+                    <td><input type="checkbox" name="sab" id="sab">Prosciutto & Funghi </td>
+                    <tr></tr>
+                    <td><input type="checkbox" name="sab" id="sab">Diavola </td>
+                    <td><input type="checkbox" name="sab" id="sab">Frutti di Mare </td>
+                    <td><input type="checkbox" name="sab" id="sab">Parmiggiana </td>
+                    <tr></tr>
+                    <td><input type="checkbox" name="sab" id="sab">Chocolate e Morango </td>
+                    <td><input type="checkbox" name="sab" id="sab">Ovomaltine </td>
+                    <td><input type="checkbox" name="sab" id="sab">Ninho e Nutella </td>
+                    <tr></tr>
+                    <td><input type="checkbox" name="sab" id="sab">Romeu e Julieta </td>
+                    <td><input type="checkbox" name="sab" id="sab">M&M </td>
+                    <td><input type="checkbox" name="sab" id="sab">Prestígio </td>
+                    <tr></tr>
+                    <td>Tipo De Borda</td>
+                    <td> <select name="tpbor" id="tpbor"> 
+                        <option value="salgd">Salgada</option>
+                        <option value="doc">Doce</option>
+                        </select></td>
+                    <td>Sabor Da Borda</td>
+                    <td> <select name="sbbor" id="sbbor"> 
+                        <option value="ched">Cheddar</option>
+                        <option value="Cat">Catupiry</option>
+                        <option value="choc">Chocolate Ao Leite</option>
+                        <option value="docele">Doce de Leite</option>
+                        </select></td>
+                        <tr></tr>
+    </table>
+    <br>
+    <div id="butaãos">
+    <input type="submit" name="enviar" id="enviar" value="ENVIAR">
+    <input type="reset" name="limpar" id="limpar" value="LIMPAR">
+</div>
+</form>
+    </div>
+    </div>
+    <div id="rodapeP">
+        <div id="textorpe">
+        <h4>Contatos:</h4> 
+        <p><img src="whats.png" alt="">Telefone:(+55)48 4002-8922</p> 
+        <p><img src="Instagram.png" alt="">Instagram:@labellatavolapizzaria</p> 
+        <p><img src="facebook.png" alt="">Facebook:pizzariabellatavola</p> 
+        <p><img src="Twitter.png" alt="">Twitter:Indisponível</p>
+        <h4>Endereço:Via del Portico d'Ottavia, 3, 00186 Roma RM, Itália</h4>
+    </div>
+    </div>
+</body>
+</html>
