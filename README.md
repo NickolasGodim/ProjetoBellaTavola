@@ -1,2 +1,2 @@
-# ProjetoPizzaria
-Site de uma pizzaria
+# ProjetoBellaTavola
+Site de uma pizzaria ficticia BellaTavola
